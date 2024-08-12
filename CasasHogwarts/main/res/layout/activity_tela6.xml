@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tela6">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="480dp"
+        android:layout_height="464dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ravenclaw" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="405dp"
+        android:layout_height="247dp"
+        android:gravity="center"
+        android:text="Corvinal é conhecida por sua valorização da sabedoria, inteligência e criatividade. Fundada por Rowena Ravenclaw, a casa é representada pelo símbolo da águia e pelas cores azul e bronze. Os membros de Corvinal são reconhecidos por sua sede insaciável de conhecimento e pela capacidade de resolver problemas complexos. Eles valorizam a curiosidade e a mente aguçada, buscando sempre expandir seus horizontes intelectuais. A casa Corvinal tem uma longa tradição de acolher bruxos e bruxas que se destacam academicamente, bem como aqueles que possuem uma mente analítica e perspicaz.    "
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="189dp"
+        android:layout_height="52dp"
+        android:gravity="center"
+        android:text="Corvinal"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.644" />
+</androidx.constraintlayout.widget.ConstraintLayout>

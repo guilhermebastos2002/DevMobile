@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tela6">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="480dp"
+        android:layout_height="464dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/sonserina1" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="404dp"
+        android:layout_height="247dp"
+        android:gravity="center"
+        android:text="Sonserina é conhecida por sua ambição, determinação e astúcia. Fundada por Salazar Sonserina, a casa é representada pelo símbolo da serpente e pelas cores verde e prata. Os membros de Sonserina são reconhecidos por sua busca pelo poder e pelo sucesso, muitas vezes demonstrando uma disposição para alcançar seus objetivos a qualquer custo. Eles valorizam a ambição e a autossuficiência, mostrando uma grande habilidade em estratégia e manipulação. A casa Sonserina tem uma longa tradição de acolher bruxos e bruxas que possuem um forte senso de autoconfiança e uma vontade feroz de alcançar seus objetivos pessoais."
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.949" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="189dp"
+        android:layout_height="52dp"
+        android:gravity="center"
+        android:text="Sonserina"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.644" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
